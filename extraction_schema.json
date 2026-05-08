@@ -1,0 +1,10 @@
+{
+    "extracted_relationship": {
+      "entity_from": "string (The entity acting or supplying. Usually [__NE_FROM__])",
+      "entity_to": "string (The entity receiving or being acted upon. Usually [__NE_TO__])",
+      "relation_id": "integer (MUST be 0, 1, 2, 3, or 4)",
+      "relation_type": "string (MUST be one of: 'Reject', 'B supplies A', 'A supplies B', 'Partnership', or 'Ownership')",
+      "confidence_score": "float (0.0 to 1.0 representing model certainty)",
+      "reasoning": "string (A strict one-sentence explanation of why this relation_id was chosen based on the text)"
+    }
+  }

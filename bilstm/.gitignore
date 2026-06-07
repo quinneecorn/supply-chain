@@ -7,9 +7,10 @@ __pycache__/
 .venv/
 venv/
 
-# Model artifacts (large)
-checkpoints/
-*.pt
+# Model artifacts — ignore old epoch snapshots only
+checkpoints/bilstm_ep06*.pt
+checkpoints/bilstm_ep08*.pt
+checkpoints/bilstm_ep10*.pt
 
 # Data (large — share via Drive/Supabase; keep .env.example only)
 final_merged_data.csv

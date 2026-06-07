@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.cache/
+legacy/
+*.csv
+*.json
+*.txt
+!INSTRUCTIONS.md
+!requirements.txt
+!intersecting_ids.txt

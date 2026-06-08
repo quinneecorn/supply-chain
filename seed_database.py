@@ -15,7 +15,6 @@ SEED_COMPANIES = [
     "Sony Group Corporation",
     "Dell Technologies Inc.",
     "HP Inc.",
-    "Samsung Electronics Co., Ltd.",
     "Taiwan Semiconductor Manufacturing Company Limited", # TSMC
     "Intel Corporation",
     "Advanced Micro Devices, Inc.", # AMD
